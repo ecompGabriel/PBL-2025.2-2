@@ -1,0 +1,213 @@
+{
+  "animalController" : {
+    "mapaDeAnimais" : {
+      "1" : {
+        "id" : 1,
+        "nome" : "Frajola",
+        "especie" : "Gato",
+        "raca" : "SRD",
+        "dataDeNascimento" : [ 2022, 5 ],
+        "sexo" : "Macho",
+        "situacaoAtual" : "Disponível para adoção"
+      },
+      "2" : {
+        "id" : 2,
+        "nome" : "Caramelo",
+        "especie" : "Cachorro",
+        "raca" : "SRD",
+        "dataDeNascimento" : [ 2021, 10 ],
+        "sexo" : "Macho",
+        "situacaoAtual" : "Em observação"
+      },
+      "3" : {
+        "id" : 3,
+        "nome" : "Branquinha",
+        "especie" : "Gata",
+        "raca" : "Siamês",
+        "dataDeNascimento" : [ 2023, 1 ],
+        "sexo" : "Fêmea",
+        "situacaoAtual" : "Em tratamento"
+      }
+    },
+    "idAtual" : 7
+  },
+  "pessoaTutoraController" : {
+    "mapaDeTutores" : {
+      "1" : {
+        "id" : 1,
+        "nome" : "Ana Silva",
+        "endereco" : {
+          "rua" : "Rua das Flores",
+          "bairro" : "Centro",
+          "cep" : "44001-100",
+          "cidade" : "Feira de Santana",
+          "estado" : "BA",
+          "complemento" : "Apto 101"
+        },
+        "telefone" : "75999112233",
+        "email" : "ana.silva@email.com"
+      },
+      "2" : {
+        "id" : 2,
+        "nome" : "Bruno Costa",
+        "endereco" : {
+          "rua" : "Avenida Getúlio Vargas",
+          "bairro" : "Ponto Central",
+          "cep" : "44075-200",
+          "cidade" : "Feira de Santana",
+          "estado" : "BA",
+          "complemento" : "Casa"
+        },
+        "telefone" : "75988223344",
+        "email" : "bruno.costa@email.com"
+      },
+      "3" : {
+        "id" : 3,
+        "nome" : "Carla Dias",
+        "endereco" : {
+          "rua" : "Rua B",
+          "bairro" : "SIM",
+          "cep" : "44088-300",
+          "cidade" : "Feira de Santana",
+          "estado" : "BA",
+          "complemento" : "Condomínio Flores"
+        },
+        "telefone" : "75991334455",
+        "email" : "carla.dias@email.com"
+      },
+      "5" : {
+        "id" : 5,
+        "nome" : "Tiago",
+        "endereco" : {
+          "rua" : "Rua",
+          "bairro" : "Bairro",
+          "cep" : "44089350",
+          "cidade" : "FSA",
+          "estado" : "BAHIA",
+          "complemento" : "casa"
+        },
+        "telefone" : "75992587821",
+        "email" : "tiago.am@uefs.br"
+      }
+    },
+    "idAtual" : 6
+  },
+  "setorResponsavelController" : {
+    "mapaDeSetores" : {
+      "1" : {
+        "id" : 1,
+        "nome" : "Biblioteca Central",
+        "endereco" : {
+          "rua" : "Avenida Transnordestina",
+          "bairro" : "Campus Universitário",
+          "cep" : "44036-900",
+          "cidade" : "Feira de Santana",
+          "estado" : "BA",
+          "complemento" : "Prédio da Biblioteca"
+        },
+        "animais" : [ {
+          "id" : 1,
+          "nome" : "Frajola",
+          "especie" : "Gato",
+          "raca" : "SRD",
+          "dataDeNascimento" : [ 2022, 5 ],
+          "sexo" : "Macho",
+          "situacaoAtual" : "Disponível para adoção"
+        }, {
+          "id" : 4,
+          "nome" : "Tom",
+          "especie" : "Gato",
+          "raca" : "SRD",
+          "dataDeNascimento" : [ 2022, 5 ],
+          "sexo" : "Macho",
+          "situacaoAtual" : "Disponível para adoção"
+        } ],
+        "pessoasTutoras" : [ {
+          "id" : 1,
+          "nome" : "Ana Silva",
+          "endereco" : {
+            "rua" : "Rua das Flores",
+            "bairro" : "Centro",
+            "cep" : "44001-100",
+            "cidade" : "Feira de Santana",
+            "estado" : "BA",
+            "complemento" : "Apto 101"
+          },
+          "telefone" : "75999112233",
+          "email" : "ana.silva@email.com"
+        } ]
+      },
+      "2" : {
+        "id" : 2,
+        "nome" : "Módulo 7",
+        "endereco" : {
+          "rua" : "Avenida Transnordestina",
+          "bairro" : "Campus Universitário",
+          "cep" : "44036-900",
+          "cidade" : "Feira de Santana",
+          "estado" : "BA",
+          "complemento" : "Prédio do Módulo 7"
+        },
+        "animais" : [ {
+          "id" : 2,
+          "nome" : "Caramelo",
+          "especie" : "Cachorro",
+          "raca" : "SRD",
+          "dataDeNascimento" : [ 2021, 10 ],
+          "sexo" : "Macho",
+          "situacaoAtual" : "Em observação"
+        } ],
+        "pessoasTutoras" : [ {
+          "id" : 2,
+          "nome" : "Bruno Costa",
+          "endereco" : {
+            "rua" : "Avenida Getúlio Vargas",
+            "bairro" : "Ponto Central",
+            "cep" : "44075-200",
+            "cidade" : "Feira de Santana",
+            "estado" : "BA",
+            "complemento" : "Casa"
+          },
+          "telefone" : "75988223344",
+          "email" : "bruno.costa@email.com"
+        } ]
+      },
+      "3" : {
+        "id" : 3,
+        "nome" : "LABEXA",
+        "endereco" : {
+          "rua" : "Avenida Transnordestina",
+          "bairro" : "Campus Universitário",
+          "cep" : "44036-900",
+          "cidade" : "Feira de Santana",
+          "estado" : "BA",
+          "complemento" : "Laaaboratório de Exatas"
+        },
+        "animais" : [ {
+          "id" : 3,
+          "nome" : "Branquinha",
+          "especie" : "Gata",
+          "raca" : "Siamês",
+          "dataDeNascimento" : [ 2023, 1 ],
+          "sexo" : "Fêmea",
+          "situacaoAtual" : "Em tratamento"
+        } ],
+        "pessoasTutoras" : [ {
+          "id" : 3,
+          "nome" : "Carla Dias",
+          "endereco" : {
+            "rua" : "Rua B",
+            "bairro" : "SIM",
+            "cep" : "44088-300",
+            "cidade" : "Feira de Santana",
+            "estado" : "BA",
+            "complemento" : "Condomínio Flores"
+          },
+          "telefone" : "75991334455",
+          "email" : "carla.dias@email.com"
+        } ]
+      }
+    },
+    "idAtual" : 5
+  }
+}
